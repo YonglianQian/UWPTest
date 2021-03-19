@@ -27,9 +27,14 @@ namespace UWPTest
         {
             this.InitializeComponent();
         }
-
+/// <summary>
+/// 使用自定义Nuget包获取时间
+/// </summary>
+/// <param name="sender"></param>
+/// <param name="e"></param>
         private void ButtonGetResult_Click_1(object sender, RoutedEventArgs e)
         {
+
             var result = Utility.GetResult();
             this.TimeTextbox.Text = result;
         }
