@@ -31,7 +31,7 @@ namespace UWPTest
         private void ButtonGetResult_Click_1(object sender, RoutedEventArgs e)
         {
             var result = Utility.GetResult();
-            this.TimeTextbox.Text = result+": Test";
+            this.TimeTextbox.Text = result;
         }
     }
 }
