@@ -30,11 +30,10 @@ namespace UWPTest
 /// <summary>
 /// 使用自定义Nuget包获取时间
 /// </summary>
-/// <param name="sender"></param>
-/// <param name="e"></param>
+/// <param name="sender">事件发起者</param>
+/// <param name="e">携带参数</param>
         private void ButtonGetResult_Click_1(object sender, RoutedEventArgs e)
         {
-
             var result = Utility.GetResult();
             this.TimeTextbox.Text = result;
         }
